@@ -3,6 +3,8 @@ body{
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	font-family: Arial, sans-serif;
+	font-size:10px;
 
 }
 #wrapper{
@@ -10,13 +12,17 @@ body{
 	width:480px;
 	margin:240px auto;
 	background-color: #fff;
-	padding: 50px 37px 35px;
+	padding: 30px 37px 35px;
 }
 h2, h4{
 	color:#263555;
 }
 h2{
 	margin:30px auto;
+	font:18px PathwayGothicOne Book, sans-serif;
+}
+h4{
+	font:12px Arial, sans-serif;
 }
 img{
 	width:405px;
@@ -34,4 +40,11 @@ img{
 }
 ul{
 	list-style-type: none;
+}
+hr{
+	margin:50px auto;
+	color:#DEDBDB;
+	background-color: #DEDBDB;
+	border:none;
+	height:2px;
 }
