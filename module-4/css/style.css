@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	font-size:13px;
+	line-height: 19px;
+}
+.wrapper{
+	background-color: #fff;
+	width: 1024px;
+	margin:230px auto;
+	padding:116px 60px 60px 80px;
+}
+h2{
+	text-transform: uppercase;
+	color:#263555;
+	font-size:32px;
+	margin-bottom: 50px;
+	font-family: 'Pathway Gothic One', sans-serif;
+
+}
+h4{
+	color:#263555;
+	font:15px Arial, sans-serif;
+	margin-bottom: 10px;
+	line-height: 19px;
+	font-weight: bold;
+}
+.clearfix::after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.last{
+	margin-bottom:0px;
+}
+p{
+	margin-bottom: 20px;
+}
+/*Top part*/
+
+.top{
+	margin-bottom: 50px;	
+}
+
+.left{
+	float:left;
+	width:640px;
+	margin-right: 20px;
+}
+.image{
+	float:left;
+	margin:0 20px 20px 0;
+}
+.text{
+	width: 40%;
+	float:left;
+}
+
+.text-bottom{
+	clear:both;
+	
+}
+.right{
+	width:212px;
+	float:left;
+}
+
+.list{
+	list-style-type: none;
+	counter-reset: list;
+}
+
+.list-item::before{
+	float:left;
+	counter-increment: list;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #38AFE5;
+	content:counter(list);
+	border-radius: 50%;
+	margin-right: 10px;
+	text-align: center;
+}
+article{
+	float:left;
+	width:calc(100% - 44px);
+}
+
+
+/*Bottom part*/
+
+.bottom{
+	padding-top: 50px;
+	border-top:1px solid #dedbdb;
+}
+.bottom-left{
+	clear:both;
+	float:left;
+	width:640px;
+	margin-right: 20px;
+}
+.bottom-right{
+	float:left;
+	width:212px;
+}
+
+
+.quote{
+	position: relative;
+	top:-10px;
+	margin-bottom: 70px;
+	z-index: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.quote h4:before{
+
+	content:'\0022';
+	margin-right: 5px;
+}
+.quote h4:after{
+	content:'\0022';
+	margin-left: 5px;
+}
+
+.bottom ul{
+	list-style-type: none;
+}
+.list-bottom{
+	width:85%;
+}
+.list-bottom-item{
+	display: inline-block;
+	width: 35%;
+	margin-right: 60px;
+}
+.list-bottom-item:before{
+	content:url(../images/arrow.png);
+	margin-right: 15px;
+	float:left;
+}
+.list-bottom-item:nth-child(2n){
+	margin-right: 0px;
+}
+
+.tool{
+	width: 212px;
+	height: 220px;
+	top:0px;
+	position:absolute;
+	background-image: url(../images/tool.png);
+	z-index: -1;
+	top: 5px;
+	left:-1px;
+	
+}
+.name{
+	text-align: center;
+	line-height: 23px;
+	color:#263555;
+}
