@@ -113,7 +113,7 @@ line-height: 20px;
 .content{
 	padding:60px;
 	background-color: #fff;
-	padding-bottom: 135px;
+	padding-bottom: 110px;
 }
 .content::after{
 	position:fixed;
@@ -134,7 +134,7 @@ line-height: 20px;
 .gallery-title{
 	text-transform: uppercase;
 	padding-top: 30px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	font-size: 32px;
 	font-family: "Pathway Gothic One", sans-serif;	
 	color: #263555;
@@ -238,7 +238,7 @@ footer{
 	display:flex;
 	justify-content: center;
 	height:40px;
-	margin:25px auto;
+	margin:20px auto;
 }
 .icon-item{
 	margin-right:12px;
@@ -250,4 +250,10 @@ footer{
 }
 .icon-item:last-child{
 	margin-right:0px;
+}
+.copyright{
+	color:#fff;
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+	text-align: center;
 }
