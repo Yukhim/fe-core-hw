@@ -252,6 +252,10 @@ article{
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.quote h4{
+	padding: 20px 10px;
+
+}
 
 .quote h4:before{
 
