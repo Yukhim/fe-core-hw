@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+html{
+	font-size: 16px;
+}
+body{
+	background-image: url(../images/27.jpg);
+	/*-webkit-background-size: cover;
+	background-size: cover;*/
+	background-repeat: repeat;
+	font-family: Arial, Tahoma, sans-serif;
+}
+.wrapper{
+	max-width: 64rem;
+	margin:auto;
+	padding:1rem;
+}
+.header{
+	display: flex;
+	padding: 1rem;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-image: url(../images/vesna7.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.logo{
+	width:30%;
+}
+
+.phone{
+	width:30%;
+}
+.phone_numbers{
+	font-size: 1.25rem;
+	font-weight: 700;
+	list-style-type: none;
+}
+.search{
+	width: 30%;
+}
+
+.one, .two, .three, .four{
+	position: relative;
+}
+
+.two{
+	color:#EABF10;
+}
+
+
+.three{
+	color:#EF0020;
+}
+.four{
+	color: #229FFF;
+}
+
+.one::before, .three::before, .four::before, .two::before{
+	display: block;
+	content: '';
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	width: 1.25rem;
+	height: 1.25rem;
+	position: absolute;
+	left:-2rem;
+
+}
+.one::before{
+	background-image: url(../images/phone.png);
+
+}
+.two::before{
+background-image: url(../images/lifecell1.png);
+	
+}
+.three::before{
+	background-image: url(../images/vodafone.png);
+}
+.four::before{
+	background-image: url(../images/kyivstar.png);
+}
+
+
+
+.menu{
+background-color: #585858;
+display:flex;
+justify-content: space-between;
+margin-bottom: 1rem;
+list-style-type: none;
+flex-wrap: 	wrap;
+padding:0.8rem;
+}
+.menu_item{
+width: 12%;
+text-align: center;
+border-radius: 50%;
+background: linear-gradient(#585858 85%, #fff);
+padding-bottom: 0.4rem;
+}
+.menu_link{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#fff;
+	font-size: 0.75rem;
+	font-weight:700;
+}	
+
+.gallery{
+	background-color: #fff;
+	padding: 1rem;
+}
+.section_title{
+	margin-bottom: 1rem;
+}
+
+.section_body{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.gallery_item{
+	width:30%;
+	margin-bottom: 1rem;
+
+}
+
+.gallery_img{
+	width:100%;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.gallery_caption{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+
+}
