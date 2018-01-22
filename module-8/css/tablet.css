@@ -1,0 +1,119 @@
+@media(min-width: 768px){
+	.wrapper{
+	
+	min-width: 768px;
+	
+	
+}
+.menu-item{
+	font-size: 24px;
+}
+.menu-item a{
+	font-size:24px;
+}
+.submenu-item a{
+	font-size:17px;
+}
+
+.menu-item:nth-child(4) a{
+	font-size: 43.6px;
+}
+
+.menu-item:nth-child(4){
+	padding:21px 0px;
+	width:90px;
+}
+.content::after{
+	position:fixed;
+	content:'\02C4';
+	width: 28px;
+	height: 28px;
+	font-size: 20px;
+	}
+
+	.figure{
+		flex-basis: 48.89%
+		
+	}
+	.figure:last-child{
+		display:none;
+	}
+	figure:nth-last-child(-n+3){
+		margin-bottom: 0;
+	}
+	.content{
+	padding:80px 45px 80px 45px;
+	background-color: #fff;
+	
+}
+footer{
+	padding: 0 45px;
+}
+.list{
+	margin-left: 0;
+	width:100%;
+}
+.footer-item{
+	flex-basis:24%;
+}
+.contact{
+	margin-top: 0px;
+	display: flex;
+   	flex-basis: 24%;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+	flex-basis: 100%;
+}
+.footer-item a{
+	font-size:16px;
+}
+
+.phone a, .mail a{
+	font-size: 12px;
+}
+.phone::before{
+	content:'TEL';
+	color: #fff;
+background-image: none;	
+}
+.mail::before{
+	display: none;
+}
+.icons{
+	margin:18px 0px 25px 0px;
+}
+
+.icon-item{
+	margin-right:16px;
+}
+.bg-fb {
+    width: 40px; 
+    height: 40px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
+
+.bg-google {
+    width: 40px; 
+    height: 40px;
+    background: url('../images/css_sprites.png') -70px -10px;
+}
+
+.bg-link {
+    width: 40px; 
+    height: 40px;
+    background: url('../images/css_sprites.png') -10px -70px;
+}
+
+.bg-tw {
+    width: 40px; 
+    height: 40px;
+    background: url('../images/css_sprites.png') -70px -70px;
+}
+.copyright{
+	font-size: 12px;
+	margin-bottom: 45px;
+} 
+
+}

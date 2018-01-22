@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+.wrapper{
+	max-width: 1024px;
+	margin:auto;
+	
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+ul{
+	list-style-type: none;
+}
+body{
+	background-image: url(../images/bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: "Pathway Gothic One", sans-serif;
+	font-size: 16px;
+	
+}
+
