@@ -1,8 +1,4 @@
-.wrapper{
-	max-width:1024px;
-	min-width: 480px;
-	margin:0 auto;
-}
+
 .header{
 display: flex;
 justify-content: center;

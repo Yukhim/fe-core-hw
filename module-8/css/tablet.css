@@ -1,10 +1,6 @@
-@media(min-width: 768px){
-	.wrapper{
-	
-	min-width: 768px;
-	
-	
-}
+ 
+@media (min-width: 481px){
+
 .menu-item{
 	font-size: 24px;
 }

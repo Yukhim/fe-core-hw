@@ -1,6 +1,7 @@
-@media (min-width: 1024px){
+
+@media (min-width: 769px){
 	.wrapper{
-		min-width: 1024px;
+		
 		align-items: center
 	}
 
@@ -19,24 +20,20 @@
 	align-items: center;
 	margin-top: 0;
 }
-.menu-item{
-	width:14%;
-}
+
 .menu-item a{
 	font-size:28px;
 }
-.submenu {
-    margin-top: 10px;
-    }
+
 .submenu-item a{
 	font-size:20px;
 }
 .menu-item:nth-child(4){
 	 position: relative;
   display: inline-block;
-	width: 15.2%;
+	width: 38.2%;
 	top:0px;
-	padding: 37px 0px;
+	padding: 35px 20px;
   
 }
 .menu-item:nth-child(1){

@@ -6,9 +6,9 @@
 }
 
 .wrapper{
-	max-width: 1024px;
-	margin:auto;
-	
+	max-width:1024px;
+	min-width: 480px;
+	margin:0 auto;
 }
 
 img{
