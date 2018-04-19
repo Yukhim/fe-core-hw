@@ -1,0 +1,29 @@
+/* .first{
+    width: 200px;
+    height: 100px;
+    text-transform: uppercase;
+    color: aqua;
+    margin: 20px;
+    background-color: #333333;
+    border: 2px solid black;
+}
+.first--active{
+    background-color: red;
+    color:#fff;
+} */
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top:50px;
+}
+
+.letter{
+    display:inline-block;
+    background-color: #ccc;
+    border:1px solid grey;
+    text-transform: uppercase;
+    text-align: center;
+    width:25px;
+    line-height: 1.5;
+    margin:2px;   
+}
