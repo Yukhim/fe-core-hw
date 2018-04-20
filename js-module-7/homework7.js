@@ -49,6 +49,8 @@ do{
 
 const myKeyboard = document.querySelector(".myKeyboard");
 
+const container = document.createElement("div");
+
 function createObj(obj){
   if (obj.currentLang =="") return;
 
@@ -58,10 +60,10 @@ function createObj(obj){
     const elem = document.createElement("div");
     elem.classList.add('letter');
     elem.textContent = Object.values(obj.layouts[`${obj.currentLang}`])[i][j];
-    myKeyboard.appendChild(elem);
+    container.appendChild(elem);
     }
-    myKeyboard.innerHTML += `<br>`;
+    container.innerHTML += `<br>`;
   }
-  
+  myKeyboard.appendChild(container);
 }
 createObj(keyboard);
