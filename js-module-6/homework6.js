@@ -29,6 +29,7 @@ let keyTrainer = {
     userErrors: 0,
     startTask(){
         this.userInput = prompt("Enter these symbols " + this.task.join(''),this.task.join(''));
+        if(this.userInput == null)return;
         for(let i=0; i<this.task.length; i++){
             if(this.userInput[i]!=this.task.join('')[i]){
                 this.userErrors++;
@@ -49,6 +50,7 @@ let keyTrainer = {
 
 function run(obj){
     obj.setCharCount()
+    if(obj.charCount == "") return;
     obj.createTask();
     obj.startTask();
 }
