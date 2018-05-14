@@ -2,7 +2,7 @@ let keyTrainer = {
     chars:['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'],
     charCount:"" ,
     setCharCount(){
-        let numOfSymbols
+        let numOfSymbols;
         while(true){
         numOfSymbols = prompt("Enter number of symbols", 0);
         if(numOfSymbols == null)return;
@@ -11,17 +11,14 @@ let keyTrainer = {
     this.charCount = numOfSymbols;     
     },
     checkPositiveInteger(num){
-        if(+num>0) return true;
+        if(+num>0&&Number.isInteger(+num)) return true;
       
     },
-    random:function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-      },
      task:'',
      createTask(){
         const arr = new Array(+this.charCount);
         for(let i = 0; i<arr.length; i++){
-            arr[i]=this.chars[this.random(0,this.chars.length)];
+            arr[i]=this.chars[Math.floor(Math.random()*this.chars.length)];
         }
         return this.task = arr;
         
