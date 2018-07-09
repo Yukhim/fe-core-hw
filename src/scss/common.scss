@@ -1,0 +1,51 @@
+
+
+.orange-box {
+    // блок с оранжевой кнопкой 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__btn {
+        display: block;
+        padding: 14px 17px;
+    }
+    .btn-box {
+        padding: 30px 0px 44px 0px;
+    }
+}
+
+.orange-box__btn--orange {
+    // офомление оранжевой кнопки
+    font-family: 'Acrom-ExtraBold';
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 11.86px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.1px;
+    background-color: #ff6b08;
+    border: 0;
+    cursor: pointer;
+}
+
+.orange-box__txt--orange {
+    // офомление ТЕКСТА оранжевой кнопки
+    color: #ff6b08;
+    font-family: 'MinionPro-Regular';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    &::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        float: left;
+        border-right: 2px solid #000;
+        transform: rotate(30deg);
+        margin-right: 10px;
+    }
+}
+
+
+
