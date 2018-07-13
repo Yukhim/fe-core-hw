@@ -18,12 +18,18 @@ do {
       }
     }
     if (!isCorrect) {
-      alert(`You have ${attempts - 1} attempts`);
+      alert(`Wrong!!! ${attempts - 1} attempt(s) left`);
       attempts = attempts - 1;
+      if(attempts==0){
+        alert("You don't have any attempts");
+    break;
+      }
       continue;
     }
-  } else {
-    alert("You don't have any attempts");
-    break;
-  }
+  } 
 } while (!isCorrect);
+
+// else {
+//   alert("You don't have any attempts");
+//   break;
+// }
