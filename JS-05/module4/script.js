@@ -32,7 +32,6 @@ function Cashier(name, productsDatabase) {
   this.onError = function() {
     console.log(`Очень жаль, вам не хватает денег на покупки`);
   };
-  console.log(this.productsDatabase);
   this.countTotalPrice = function(order) {
     for (const key in this.productsDatabase) {
       for (const keys in order) {
