@@ -1,0 +1,30 @@
+body{
+  box-sizing: border-box;
+}
+
+.image-gallery{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.fullview img, .preview img{
+  width:100%;
+  height:  auto;
+  background-size: cover;
+}
+
+.preview{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.preview li{
+  margin-right: 10px;
+}
+
+.preview li:last-child{
+  margin-right: 0;
+}
