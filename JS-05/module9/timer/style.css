@@ -1,0 +1,14 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.timer{
+  
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+.buttons{
+  text-align: center;
+}
